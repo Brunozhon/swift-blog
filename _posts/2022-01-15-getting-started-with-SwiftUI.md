@@ -198,7 +198,7 @@ struct ContentView: View {
         .resizable()
         .frame(width: 300, height: 300)
         .scaledToFit()
-        BioView()
+      BioView()
     }
   }
 }
