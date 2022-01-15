@@ -167,4 +167,25 @@ struct House {
   func closeAllDoors() async { ... }
   func closeAllWindows() async { ... }
 }
+
+/// 4
+
+struct House {
+  // Properties
+  var rooms: [Room] = []
+  var windows: [Window] = []
+  var doors: [Door] = []
+  var walls: [Wall] = []
+  // Functions
+  mutating func openDoor(_ door: Door) async throws { ... }
+  mutating func openWindow(_ window: Window) async throws { ... }
+  mutating func openAllDoors() async { ... }
+  mutating func openAllWindows() async { ... }
+  mutating func closeDoor(_ door: Door) async throws { ... }
+  mutating func closeWindow(_ window: Window) async throws { ... }
+  mutating func closeAllDoors() async { ... }
+  mutating func closeAllWindows() async { ... }
+}
 ```
+
+You can call your struct using a initializer.
