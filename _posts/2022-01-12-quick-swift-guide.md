@@ -189,3 +189,15 @@ struct House {
 ```
 
 You can call your struct using a initializer.
+
+```swift
+House()
+House(
+  rooms: [...],
+  windows: [...],
+  doors: [...],
+  walls: [...]
+)
+```
+
+That's it for Swift! I hope you learned the basics of Swift!
