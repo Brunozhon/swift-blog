@@ -7,7 +7,9 @@
   <ul>
     {% for post in tag[1] %}
       <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <h1>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h1>
         {{ post.excerpt }}
       </li>
     {% endfor %}
