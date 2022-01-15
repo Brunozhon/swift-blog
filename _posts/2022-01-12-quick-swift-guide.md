@@ -1,3 +1,7 @@
+---
+tags: essentials basic
+---
+
 # A Quick Swift Guide
 
 ## Variables
