@@ -163,7 +163,7 @@ struct ContentView: View {
 }
 ```
 
-6\. Create a new file called `BioView.swift`. Add your bio here, and remove it from `ContentView.swift`.
+6\. Create a new file called `BioView.swift`. Add your bio here, and remove it from `ContentView.swift`. Add *something that shows your bio* to `ContentView`.
 
 BioView.swift
 ```swift
@@ -198,6 +198,7 @@ struct ContentView: View {
         .resizable()
         .frame(width: 300, height: 300)
         .scaledToFit()
+        BioView()
     }
   }
 }
