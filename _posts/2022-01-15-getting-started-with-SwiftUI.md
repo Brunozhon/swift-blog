@@ -104,7 +104,7 @@ struct ContentView: View {
 }
 ```
 
-> **Expreriment:** 
+> **Experiment:** 
 > 
 > 1. What if you change `.scaledToFit()` into `.scaledToFill()`
 > 2. What if you remove the `.scaledToFit()` modifier?
