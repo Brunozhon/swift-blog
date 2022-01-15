@@ -109,3 +109,62 @@ func closeWindow(_ window: Window) async throws
 func closeAllDoors() async
 func closeAllWindows() async
 ```
+
+Abracadarbra! Look at it turn into a struct!
+
+```swift
+/// 1
+
+// Properties
+var rooms: [Room]
+var windows: [Window]
+var doors: [Door]
+var walls: [Wall]
+// Functions
+func openDoor(_ door: Door) async throws
+func openWindow(_ window: Window) async throws
+func openAllDoors() async
+func openAllWindows() async
+func closeDoor(_ door: Door) async throws
+func closeWindow(_ window: Window) async throws
+func closeAllDoors() async
+func closeAllWindows() async
+
+/// 2
+
+struct House {
+  // Properties
+  var rooms: [Room]
+  var windows: [Window]
+  var doors: [Door]
+  var walls: [Wall]
+  // Functions
+  func openDoor(_ door: Door) async throws
+  func openWindow(_ window: Window) async throws
+  func openAllDoors() async
+  func openAllWindows() async
+  func closeDoor(_ door: Door) async throws
+  func closeWindow(_ window: Window) async throws
+  func closeAllDoors() async
+  func closeAllWindows() async
+}
+
+/// 3
+
+struct House {
+  // Properties
+  var rooms: [Room]
+  var windows: [Window]
+  var doors: [Door]
+  var walls: [Wall]
+  // Functions
+  func openDoor(_ door: Door) async throws { ... }
+  func openWindow(_ window: Window) async throws { ... }
+  func openAllDoors() async { ... }
+  func openAllWindows() async { ... }
+  func closeDoor(_ door: Door) async throws { ... }
+  func closeWindow(_ window: Window) async throws { ... }
+  func closeAllDoors() async { ... }
+  func closeAllWindows() async { ... }
+}
+```
