@@ -1,8 +1,7 @@
 ---
 tags: Essentials Basic
+excerpt_separator: <!--more-->
 ---
-
-# A Quick Swift Guide
 
 ## Variables
 
@@ -25,6 +24,8 @@ Once a variable's type is declared, it can't be changed.
 ```swift
 myVariable = 1.5 // Error
 ```
+
+<!--more-->
 
 ## Functions
 
