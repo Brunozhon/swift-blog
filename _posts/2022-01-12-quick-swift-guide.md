@@ -1,6 +1,7 @@
 ---
 tags: Essentials Basic
 excerpt_separator: <!--more-->
+author: Bruno Zhong
 ---
 
 ## Variables
