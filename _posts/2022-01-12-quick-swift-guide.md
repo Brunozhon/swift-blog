@@ -1,5 +1,5 @@
 ---
-tags: essentials basic
+tags: Essentials Basic
 ---
 
 # A Quick Swift Guide
