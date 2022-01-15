@@ -16,10 +16,10 @@ What if you're done with plain old Swift? You want me to list all of the framewo
   <!--more-->
   - SwiftUI: Declare the user intefrace and behavior for your app on every platform.
   - TVML: Use Apple TV Markup Language to create individual pages inside a client-server app.
-  - TVMLKit
-  - TIUIKit
-  - UIKit
-  - WatchKit
+  - TVMLKit: Create client-server apps by incorporating JavaScript and TVML files in your binary app.
+  - TIUIKit: Show common user interface elements from your Apple TV in your native app.
+  - UIKit: Construct and manage a graphical, event-driven user inteface for your iOS or tvOS app.
+  - WatchKit: Build apps that leverage watchOS features like background tasks, extended runtime sessions, and access to the Digital Crown. *(Digital Crown? What's a Digital Crown?)*
 - **<span id="app-services" name="app-services">App Services</span>**
   - Accounts
   - Address Book
@@ -28,3 +28,25 @@ What if you're done with plain old Swift? You want me to list all of the framewo
   - AdSupport
   - Application Services
   - Automatic Assessment Configuration
+  - Background Tasks
+  - CallKit
+  - CareKit
+  - CarPlay
+  - ClassKit
+  - ClockKit
+  - CloudKit *(So many "-Kit"s! I wonder how many "-Kit"s it'll have in all. Until now, it's 10 "-Kit"s! Wow!)*
+  - Combine
+  - Contacts
+  - Contacks UI
+  - Core Data
+  - Core Foundation
+  - Core Location
+  - CoreLocationUI *(Whyarethewordsmashedup?)*
+  - Core ML
+  - Core Motion
+  - Core Text
+  - Create ML
+  - DeviceActivity *(Wordsmashedupmakesithardertoread.Whydidthecreatornotthinkofthis?)*
+  - DeviceCheck *(Mashedupagain?Iamfedupwiththatmashingupwithwords!Onemashedupisenough!)*
+  - EventKit
+  - EventKit UI *(That's better!)*
