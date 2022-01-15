@@ -64,10 +64,10 @@ struct ContentView: View {
 }
 ```
 
-3\. Add a placeholder image and change `"Hello, world!"` to... *something you would except to find at the top of an "About Me" page*.
+3\. Add a placeholder image and change `"Hello, world!"` to... *something you would except to find at the top of an "About Me" page* and make it ***stand out***!
 
 ContentView.swift
-```
+```swift
 import SwiftUI
 
 struct ContentView: View {
@@ -77,14 +77,33 @@ struct ContentView: View {
         .imageScale(.large)
         .foregroundColor(.accentColor)
       Text("About Bruno")
+        .font(.largeTitle)
       Image("Placeholder")
     }
   }
 }
 ```
 
+> **Sidenote:**
+> 
+> The different font types are:
+> - `.largeTitle`
+> - `.title`
+> - `.title2`
+> - `.title3`
+> - `.body`
+> - `.headline`
+> - `.subheadline`
+> - `.caption`
+> - `.caption2`
+
+> **Experiment:**
+>
+> What if you change your font into something listed in the sidenote except `.largeTitle`? Which one suits you best? Use the one that suits you best.
+
 4\. Apply a modifier that *allows the image to scale*, a modifier that *sets an imaginary frame*, and a modifier that *scales a `View` to fit a frame or its parent*.
 
+ContentView.swift
 ```swift
 import SwiftUI
 
