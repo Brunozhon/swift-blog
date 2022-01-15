@@ -8,8 +8,6 @@ excerpt_separator: <!--more-->
 
 - [About Me](#about-me): Create a simple "About Me" project using a `ScrollView`.
 
-<!--more-->
-
 ### About Me
 
 We'll be creating a simple "About Me" project.
@@ -63,6 +61,8 @@ struct ContentView: View {
   }
 }
 ```
+
+<!--more-->
 
 3\. Add a placeholder image and change `"Hello, world!"` to... *something you would except to find at the top of an "About Me" page* and make it ***stand out***!
 
