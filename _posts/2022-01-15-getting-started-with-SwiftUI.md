@@ -203,4 +203,33 @@ struct ContentView: View {
 }
 ```
 
-Coming Soon!
+7\. Enclose the `Text` inside a `VStack`, and add some more paragraphs using `Text` and images using `Image`.
+
+BioView.swift
+```swift
+import SwiftUI
+
+struct BioView: View {
+  var body: some View {
+    VStack {
+      Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam rhoncus justo, a luctus purus finibus non. Aenean porttitor sapien non lectus eleifend, vitae accumsan est rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. In fringilla augue ipsum, sit amet fringilla quam maximus sit amet. Nunc varius nibh laoreet lacinia fringilla. Proin vel neque pharetra augue tristique commodo vel quis leo. Curabitur at ex ut neque condimentum faucibus sed non ante. Suspendisse gravida vehicula lorem eget suscipit. Ut nec erat lectus. Pellentesque dapibus enim nibh, quis convallis leo ultricies vel. Sed ultricies neque vel turpis posuere, quis dignissim purus ornare.")
+      Image("Lorem Ipsum Dolor")
+        .resizable()
+        .frame(width: 100, height: 150)
+        .scaledToFit()
+      Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam rhoncus justo, a luctus purus finibus non. Aenean porttitor sapien non lectus eleifend, vitae accumsan est rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. In fringilla augue ipsum, sit amet fringilla quam maximus sit amet. Nunc varius nibh laoreet lacinia fringilla. Proin vel neque pharetra augue tristique commodo vel quis leo. Curabitur at ex ut neque condimentum faucibus sed non ante. Suspendisse gravida vehicula lorem eget suscipit. Ut nec erat lectus. Pellentesque dapibus enim nibh, quis convallis leo ultricies vel. Sed ultricies neque vel turpis posuere, quis dignissim purus ornare.")
+      Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam rhoncus justo, a luctus purus finibus non. Aenean porttitor sapien non lectus eleifend, vitae accumsan est rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. In fringilla augue ipsum, sit amet fringilla quam maximus sit amet. Nunc varius nibh laoreet lacinia fringilla. Proin vel neque pharetra augue tristique commodo vel quis leo. Curabitur at ex ut neque condimentum faucibus sed non ante. Suspendisse gravida vehicula lorem eget suscipit. Ut nec erat lectus. Pellentesque dapibus enim nibh, quis convallis leo ultricies vel. Sed ultricies neque vel turpis posuere, quis dignissim purus ornare.")
+      Image("Sit Amet Consectetur")
+        .resizable()
+        .frame(width: 500, height: 250)
+        .scaledToFit()
+    }
+  }
+}
+
+struct BioView_Previews: PreviewProvider {
+  static var previews: some View {
+    BioView()
+  }
+}
+```
