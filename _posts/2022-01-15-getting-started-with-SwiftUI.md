@@ -96,6 +96,15 @@ struct ContentView: View {
 > - `.subheadline`
 > - `.caption`
 > - `.caption2`
+>
+> You can also create a custom one using `.custom(_:size:)` or `.custom(_:fixedSize:)`.
+>
+> ```swift
+> Text("Hello, world!")
+>   .font(
+>     .custom("Helvetica", size: 10)
+>   )
+> ```
 
 > **Experiment:**
 >
