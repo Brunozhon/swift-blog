@@ -123,6 +123,7 @@ struct ContentView: View {
         .imageScale(.large)
         .foregroundColor(.accentColor)
       Text("About Bruno")
+        .font(.largeTitle)
       Image("Placeholder")
         .resizable()
         .frame(width: 300, height: 300)
@@ -138,5 +139,68 @@ struct ContentView: View {
 > 2. What if you remove the `.scaledToFit()` modifier?
 > 3. What if you remove the `.resizable()` modifier?
 > 4. What if you remove the `.frame(width: 300, height: 300)` modifier?
+
+5\. Add a bio about yourself.
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+  var body: some View {
+    ScrollView {
+      Image(systemName: "globe")
+        .imageScale(.large)
+        .foregroundColor(.accentColor)
+      Text("About Bruno")
+        .font(.largeTitle)
+      Image("Placeholder")
+        .resizable()
+        .frame(width: 300, height: 300)
+        .scaledToFit()
+      Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam rhoncus justo, a luctus purus finibus non. Aenean porttitor sapien non lectus eleifend, vitae accumsan est rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. In fringilla augue ipsum, sit amet fringilla quam maximus sit amet. Nunc varius nibh laoreet lacinia fringilla. Proin vel neque pharetra augue tristique commodo vel quis leo. Curabitur at ex ut neque condimentum faucibus sed non ante. Suspendisse gravida vehicula lorem eget suscipit. Ut nec erat lectus. Pellentesque dapibus enim nibh, quis convallis leo ultricies vel. Sed ultricies neque vel turpis posuere, quis dignissim purus ornare.")
+    }
+  }
+}
+```
+
+6\. Create a new file called `BioView.swift`. Add your bio here, and remove it from `ContentView.swift`.
+
+BioView.swift
+```swift
+import SwiftUI
+
+struct BioView: View {
+  var body: some View {
+    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam rhoncus justo, a luctus purus finibus non. Aenean porttitor sapien non lectus eleifend, vitae accumsan est rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. In fringilla augue ipsum, sit amet fringilla quam maximus sit amet. Nunc varius nibh laoreet lacinia fringilla. Proin vel neque pharetra augue tristique commodo vel quis leo. Curabitur at ex ut neque condimentum faucibus sed non ante. Suspendisse gravida vehicula lorem eget suscipit. Ut nec erat lectus. Pellentesque dapibus enim nibh, quis convallis leo ultricies vel. Sed ultricies neque vel turpis posuere, quis dignissim purus ornare.")
+  }
+}
+
+struct BioView_Previews: PreviewProvider {
+  static var previews: some View {
+    BioView()
+  }
+}
+```
+
+ContentView.swift
+```swift
+import SwiftUI
+
+struct ContentView: View {
+  var body: some View {
+    ScrollView {
+      Image(systemName: "globe")
+        .imageScale(.large)
+        .foregroundColor(.accentColor)
+      Text("About Bruno")
+        .font(.largeTitle)
+      Image("Placeholder")
+        .resizable()
+        .frame(width: 300, height: 300)
+        .scaledToFit()
+    }
+  }
+}
+```
 
 Coming Soon!
