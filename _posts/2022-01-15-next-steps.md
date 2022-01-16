@@ -12,6 +12,7 @@ Contents
   - <a href="#a-c-app-services">A-C</a>
   - <a href="#d-r-app-services">D-R</a>
   - <a href="#s-z-app-services">S-Z</a>
+- <a href="#developer-tools">Developer Tools</a>
 
 - **<span id="app-frameworks" name="app-frameworks">App Frameworks</span>**
   - Accessibility: Make you apps accesible to everyone who uses Apple devices.
@@ -91,3 +92,16 @@ Contents
   - Watch Connectivity
   - WebKit
   - WidgetKit
+- **<span id="developer-tools" name="developer-tools">Developer Tools</span>**
+  - Automator
+  - DeveloperToolsSupport *(10thtimeinalland1sttimeindevelopertools!Wow!)*
+  - DocC: Produce rich API reference documentation and interactive tutorials for your Swift framework or package.
+  - Playground Bluetooth
+  - Playground Support
+  - Scripting Bridge
+  - StoreKit Test
+  - Swift Packages
+  - Swift Playgrounds
+  - Xcode
+  - XcodeKit
+  - XCTest
