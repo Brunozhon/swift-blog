@@ -29,25 +29,25 @@ Contents
   - UIKit: Construct and manage a graphical, event-driven user inteface for your iOS or tvOS app.
   - WatchKit: Build apps that leverage watchOS features like background tasks, extended runtime sessions, and access to the Digital Crown. *(Digital Crown? What's a Digital Crown?)*
 - **<span id="app-services" name="app-services">App Services</span>**
-  - <span id="a-c-app-services" name="a-c-app-services">Accounts</span>
-  - Address Book
-  - Address Book UI
-  - AdServices
-  - AdSupport
-  - Application Services
-  - Automatic Assessment Configuration
-  - Background Tasks
-  - CallKit
-  - CareKit
-  - CarPlay
-  - ClassKit
-  - ClockKit
-  - CloudKit *(So many "-Kit"s! I wonder how many "-Kit"s it'll have in all. Until now, it's 10 "-Kit"s! Wow!)*
-  - Combine
-  - Contacts
-  - Contacks UI
-  - Core Data
-  - Core Foundation
+  - <span id="a-c-app-services" name="a-c-app-services">Accounts</span>: Help users access and manage their external accounts from within your app, without requiring them to enter login credentials.
+  - Address Book: Access the centralized database for storing users' contacts.
+  - Address Book UI: Access users' contacts and display them in a graphical interface.
+  - AdServices *(This is a mistake. Uh-oh.)*
+  - AdSupport: Provide apps with access to an advertising identifier.
+  - Application Services: Perform common application tasks.
+  - Automatic Assessment Configuration: Enter single-app mode and prevent students from accessing specific system features while taking an exam.
+  - Background Tasks: Request the system to launch your app in the background to run tasks.
+  - CallKit: Display the system-calling UI for your app’s VoIP services, and coordinate your calling services with other apps and the system.
+  - CareKit: Create apps that help people better understand and manage their health.
+  - CarPlay: Integrate CarPlay in audio, communication, navigation, parking, EV-charging, and food-ordering apps.
+  - ClassKit: Enable teachers to assign activities from your app’s content and to view student progress.
+  - ClockKit: Display app-specific data on the clock face.
+  - CloudKit: Store structured app and user data in iCloud containers that all users of your app can share. *(So many "-Kit"s! I wonder how many "-Kit"s it'll have in all. Until now, it's 10 "-Kit"s! Wow!)*
+  - Combine: Customize handling of asynchronous events by combining event-processing operators.
+  - Contacts: Access the user's contacts and format and localize contact information.
+  - Contacks UI: Display information about users’ contacts in a graphical interface.
+  - Core Data: Persist or cache data on a single device, or sync data to multiple devices with CloudKit.
+  - Core Foundation: Access low-level functions, primitive data types, and various collection types that are bridged seamlessly with the Foundation framework.
   - Core Location
   - CoreLocationUI *(Whyarethewordsmashedup?)*
   - Core ML
