@@ -11,6 +11,7 @@ Contents
 - <a href="#app-services">App Services</a>
   - <a href="#a-c-app-services">A-C</a>
   - <a href="#d-r-app-services">D-R</a>
+  - <a href="#s-z-app-services">S-Z</a>
 
 - **<span id="app-frameworks" name="app-frameworks">App Frameworks</span>**
   - Accessibility: Make you apps accesible to everyone who uses Apple devices.
