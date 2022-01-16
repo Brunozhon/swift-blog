@@ -6,6 +6,12 @@ excerpt_separator: <!--more-->
 
 What if you're done with plain old Swift? You want me to list all of the frameworks? **WARNING:** It's a very long, I mean ***long*** list. Still keen? Ok, here goes...
 
+Contents
+- <a href="#app-frameworks">App Frameworks</a>
+- <a href="#app-services">App Services</a>
+  - <a href="#a-c-app-services">A-C</a>
+  - <a href="#d-r-app-services">D-R</a>
+
 - **<span id="app-frameworks" name="app-frameworks">App Frameworks</span>**
   - Accessibility: Make you apps accesible to everyone who uses Apple devices.
   - App Clips: Provide users a shortcut to selected content and features of your app.
@@ -21,7 +27,7 @@ What if you're done with plain old Swift? You want me to list all of the framewo
   - UIKit: Construct and manage a graphical, event-driven user inteface for your iOS or tvOS app.
   - WatchKit: Build apps that leverage watchOS features like background tasks, extended runtime sessions, and access to the Digital Crown. *(Digital Crown? What's a Digital Crown?)*
 - **<span id="app-services" name="app-services">App Services</span>**
-  - Accounts
+  - <span id="a-c-app-services" name="a-c-app-services">Accounts</span>
   - Address Book
   - Address Book UI
   - AdServices
@@ -46,7 +52,41 @@ What if you're done with plain old Swift? You want me to list all of the framewo
   - Core Motion
   - Core Text
   - Create ML
-  - DeviceActivity *(Wordsmashedupmakesithardertoread.Whydidthecreatornotthinkofthis?)*
+  - <span id="d-r-app-services" name="d-r-app-services">DeviceActivity <i>(Wordsmashedupmakesithardertoread.Whydidthecreatornotthinkofthis?)</i></span>
   - DeviceCheck *(Mashedupagain?Iamfedupwiththatmashingupwithwords!Onemashedupisenough!)*
   - EventKit
   - EventKit UI *(That's better!)*
+  - File Provider
+  - File Provider UI
+  - HealthKit
+  - HomeKit
+  - iAd
+  - JavaScriptCore *(Mashedupforthe4thtime?Yougottobekiddingorelse!)*
+  - MailKit
+  - ManagedSettings *(The5thtime?Iamgoingtoblowup!Leavethispagethisinstantoryouwillbedead.)*
+  - ManagedSettingsUI *(Iwasjustkidding,butIamfedupbythemashed-togetherwords.)*
+  - MapKit
+  - Message UI *(That's better.)*
+  - Messages
+  - Multipeer Connectivity
+  - Natural Language
+  - NewsstandKit *(Newsstand? What's a newsstand? Orisitmashedtogtherwords?)*
+  - Notification Center *(That's better, if newsstand isn't a word.)*
+  - PassKit
+  - Prefrence Panes
+  - PushKit
+  - QuickLook *(Mashedtogetherforthe7thtime!)*
+  - QuickLookUI *(8thtime!Imuststopthisbeforethe9thtime!)*
+  - <span id="s-z-app-services">Safari Services</span>
+  - SiriKit
+  - SMS and Call Reporting
+  - Social
+  - Speech
+  - StoreKit
+  - TabularData *(9thtime!IhopethisistheendforAppServices!)*
+  - TV Services
+  - User Notifications
+  - User Notifications UI
+  - Watch Connectivity
+  - WebKit
+  - WidgetKit
