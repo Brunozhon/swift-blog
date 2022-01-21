@@ -61,7 +61,15 @@ Wow, look at the attribute! It's a special one! A property wrapper, to be exact.
 > 2. The first letter is capitalized because its a property wrapper. (1,000,000,000,000,000,000,000,000,000,000 pts.)
 ```swift
     @Binding var run: Run
-    
+```
+This stores a `Run` to be used in the future. It's a property wrapper. But why does it have a type?
+
+Give up? It's generic. Here's how the declaration will look:
+```swift
+@propertyWrapper struct Binding<V>
+```
+So there you go!
+```swift
     var body: some View {
         VStack {
             HStack {
