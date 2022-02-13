@@ -57,4 +57,6 @@ struct ValentineList_Previews: PreviewProvider {
 }
 ```
 
+Before we go to `ValentineView.swift`, let's go to... 
 
+## `Valentine.swift`
